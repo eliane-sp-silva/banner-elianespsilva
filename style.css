@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+body {
+  width: 100%;
+  min-height: 60vh;
+  background: linear-gradient(#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  right: 16px;
+  /* padding: 0; */
+  display: flex; 
+  justify-content: flex-end; 
+}
+main{
+  width: 900px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+
+}
+.container{
+  width: 750px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  gap: 1;
+
+}
+img{
+  width: 80%;
+}
+
+main div .text{
+  width: 450px;
+  height: 230px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex; 
+  justify-content: center; 
+  align-items: flex-start;
+  flex-direction: column;
+
+}
+span{
+  display: flex;  
+  padding: 7px;
+}
+div :nth-child(1){
+color: #4f5bd5;
+font-family: 'Courier Prime', sans-serif;
+font-weight: bold;
+
+}
+div :nth-child(2){
+color: #ffffff;
+text-align: start;
+}
+div :nth-child(5){
+color: #ffffff;
+}
+div :nth-child(3){
+color: #feda75;
+font-family: 'Courier Prime', sans-serif;
+font-weight: bold;
+}
+div :nth-child(4){
+color: #fa7e1e;
+font-family: 'Courier Prime', sans-serif;
+font-weight: bold;
+}
